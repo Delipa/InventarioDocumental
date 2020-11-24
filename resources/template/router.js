@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import DashboardLayout from '@/layout/DashboardLayout'
-import AuthLayout from '@/layout/AuthLayout'
+import DashboardLayout from './layout/DashboardLayout'
+import AuthLayout from './layout/AuthLayout'
 Vue.use(Router)
 
 export default new Router({
@@ -39,7 +39,12 @@ export default new Router({
           path: '/tables',
           name: 'tables',
           component: () => import(/* webpackChunkName: "demo" */ './views/Tables.vue')
-        }
+        },
+          {
+              path: '/ejemplo',
+              name: 'Ejemplo',
+              component: () => import(/* webpackChunkName: "demo" */ './components/Ejemplo.vue')
+          },
       ]
     },
     {

@@ -11,9 +11,9 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js([
-        'resources/template/main.js'
-    ], 'public/js')
-    .sass([
+mix.js(
+       'resources/template/main.js'
+    , 'public/js')
+    .sass(
         'resources/template/assets/scss/argon.scss'
-    ], 'public/css');
+    , 'public/css');

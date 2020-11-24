@@ -109,7 +109,7 @@
     </nav>
 </template>
 <script>
-  import NavbarToggleButton from '@/components/NavbarToggleButton'
+  import NavbarToggleButton from '../../components/NavbarToggleButton'
 
   export default {
     name: 'sidebar',
