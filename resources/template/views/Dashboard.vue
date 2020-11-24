@@ -13,7 +13,7 @@
 
                         <template slot="footer">
                             <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
-                            <span class="text-nowrap">Since last month</span>
+                            <span class="text-nowrap">AAAAAAAAAAAAAAA</span>
                         </template>
                     </stats-card>
                 </div>
@@ -27,7 +27,7 @@
 
                         <template slot="footer">
                             <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 12.18%</span>
-                            <span class="text-nowrap">Since last month</span>
+                            <span class="text-nowrap">wwwwwwwwwwwwwww</span>
                         </template>
                     </stats-card>
                 </div>

@@ -67,7 +67,7 @@
                 </div>
                 <div class="col-6 text-right">
                     <router-link to="/login" class="text-light">
-                        <small>Login into your account</small>
+                        <small>Login into your accountssssssssssss</small>
                     </router-link>
                 </div>
             </div>
