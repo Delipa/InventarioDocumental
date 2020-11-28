@@ -45,8 +45,14 @@ export default new Router({
               name: 'Ejemplo',
               component: () => import(/* webpackChunkName: "demo" */ './components/Ejemplo.vue')
           },
+          
       ]
     },
+    {
+      path: '/inicio',
+      name: 'Inicio',
+      component: () => import(/* webpackChunkName: "demo" */ './components/Inicio.vue')
+  },
     {
       path: '/',
       redirect: 'login',

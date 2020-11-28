@@ -2627,7 +2627,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'auth-layout',
@@ -2742,6 +2741,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 
@@ -2777,6 +2777,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -44966,7 +44967,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../../node_module
 
 
 // module
-exports.push([module.i, "/*--------------------------------\n\nhermes-dashboard-icons Web Font - built using nucleoapp.com\nLicense - nucleoapp.com/license/\n\n-------------------------------- */\n@font-face {\n  font-family: 'NucleoIcons';\n  src: url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.eot */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.eot")) + ");\n  src: url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.eot */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.eot")) + ") format('embedded-opentype'), url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.woff2 */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.woff2")) + ") format('woff2'), url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.woff */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.woff")) + ") format('woff'), url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.ttf */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.ttf")) + ") format('truetype'), url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.svg */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.svg")) + ") format('svg');\n  font-weight: normal;\n  font-style: normal;\n}\n/*------------------------\n    base class definition\n-------------------------*/\n.ni {\n  display: inline-block;\n  font: normal normal normal 14px/1 NucleoIcons;\n  font-size: inherit;\n  text-rendering: auto;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n/*------------------------\n  change icon size\n-------------------------*/\n.ni-lg {\n  font-size: 1.33333333em;\n  line-height: 0.75em;\n  vertical-align: -15%;\n}\n.ni-2x {\n  font-size: 2em;\n}\n.ni-3x {\n  font-size: 3em;\n}\n.ni-4x {\n  font-size: 4em;\n}\n.ni-5x {\n  font-size: 5em;\n}\n\n/*----------------------------------\n  add a square/circle background\n-----------------------------------*/\n.ni.square,\n.ni.circle {\n  padding: 0.33333333em;\n  vertical-align: -16%;\n  background-color: #eee;\n}\n.ni.circle {\n  border-radius: 50%;\n}\n/*------------------------\n  list icons\n-------------------------*/\n.ni-ul {\n  padding-left: 0;\n  margin-left: 2.14285714em;\n  list-style-type: none;\n}\n.ni-ul > li {\n  position: relative;\n}\n.ni-ul > li > .ni {\n  position: absolute;\n  left: -1.57142857em;\n  top: 0.14285714em;\n  text-align: center;\n}\n.ni-ul > li > .ni.lg {\n  top: 0;\n  left: -1.35714286em;\n}\n.ni-ul > li > .ni.circle,\n.ni-ul > li > .ni.square {\n  top: -0.19047619em;\n  left: -1.9047619em;\n}\n/*------------------------\n  spinning icons\n-------------------------*/\n.ni.spin {\n  -webkit-animation: nc-spin 2s infinite linear;\n  animation: nc-spin 2s infinite linear;\n}\n@-webkit-keyframes nc-spin {\n  0% {\n    -webkit-transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(360deg);\n  }\n}\n@keyframes nc-spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n/*------------------------\n  rotated/flipped icons\n-------------------------*/\n.ni.rotate-90 {\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);\n  transform: rotate(90deg);\n}\n.ni.rotate-180 {\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);\n  transform: rotate(180deg);\n}\n.ni.rotate-270 {\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);\n  transform: rotate(270deg);\n}\n.ni.flip-y {\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);\n  transform: scale(-1, 1);\n}\n.ni.flip-x {\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);\n  transform: scale(1, -1);\n}\n/*------------------------\n    font icons\n-------------------------*/\n\n.ni-active-40::before {\n    content: \"\\EA02\";\n}\n\n.ni-air-baloon::before {\n    content: \"\\EA03\";\n}\n\n.ni-album-2::before {\n    content: \"\\EA04\";\n}\n\n.ni-align-center::before {\n    content: \"\\EA05\";\n}\n\n.ni-align-left-2::before {\n    content: \"\\EA06\";\n}\n\n.ni-ambulance::before {\n    content: \"\\EA07\";\n}\n\n.ni-app::before {\n    content: \"\\EA08\";\n}\n\n.ni-archive-2::before {\n    content: \"\\EA09\";\n}\n\n.ni-atom::before {\n    content: \"\\EA0A\";\n}\n\n.ni-badge::before {\n    content: \"\\EA0B\";\n}\n\n.ni-bag-17::before {\n    content: \"\\EA0C\";\n}\n\n.ni-basket::before {\n    content: \"\\EA0D\";\n}\n\n.ni-bell-55::before {\n    content: \"\\EA0E\";\n}\n\n.ni-bold-down::before {\n    content: \"\\EA0F\";\n}\n\n.ni-bold-left::before {\n    content: \"\\EA10\";\n}\n\n.ni-bold-right::before {\n    content: \"\\EA11\";\n}\n\n.ni-bold-up::before {\n    content: \"\\EA12\";\n}\n\n.ni-bold::before {\n    content: \"\\EA13\";\n}\n\n.ni-book-bookmark::before {\n    content: \"\\EA14\";\n}\n\n.ni-books::before {\n    content: \"\\EA15\";\n}\n\n.ni-box-2::before {\n    content: \"\\EA16\";\n}\n\n.ni-briefcase-24::before {\n    content: \"\\EA17\";\n}\n\n.ni-building::before {\n    content: \"\\EA18\";\n}\n\n.ni-bulb-61::before {\n    content: \"\\EA19\";\n}\n\n.ni-bullet-list-67::before {\n    content: \"\\EA1A\";\n}\n\n.ni-bus-front-12::before {\n    content: \"\\EA1B\";\n}\n\n.ni-button-pause::before {\n    content: \"\\EA1C\";\n}\n\n.ni-button-play::before {\n    content: \"\\EA1D\";\n}\n\n.ni-button-power::before {\n    content: \"\\EA1E\";\n}\n\n.ni-calendar-grid-58::before {\n    content: \"\\EA1F\";\n}\n\n.ni-camera-compact::before {\n    content: \"\\EA20\";\n}\n\n.ni-caps-small::before {\n    content: \"\\EA21\";\n}\n\n.ni-cart::before {\n    content: \"\\EA22\";\n}\n\n.ni-chart-bar-32::before {\n    content: \"\\EA23\";\n}\n\n.ni-chart-pie-35::before {\n    content: \"\\EA24\";\n}\n\n.ni-chat-round::before {\n    content: \"\\EA25\";\n}\n\n.ni-check-bold::before {\n    content: \"\\EA26\";\n}\n\n.ni-circle-08::before {\n    content: \"\\EA27\";\n}\n\n.ni-cloud-download-95::before {\n    content: \"\\EA28\";\n}\n\n.ni-cloud-upload-96::before {\n    content: \"\\EA29\";\n}\n\n.ni-compass-04::before {\n    content: \"\\EA2A\";\n}\n\n.ni-controller::before {\n    content: \"\\EA2B\";\n}\n\n.ni-credit-card::before {\n    content: \"\\EA2C\";\n}\n\n.ni-curved-next::before {\n    content: \"\\EA2D\";\n}\n\n.ni-delivery-fast::before {\n    content: \"\\EA2E\";\n}\n\n.ni-diamond::before {\n    content: \"\\EA2F\";\n}\n\n.ni-email-83::before {\n    content: \"\\EA30\";\n}\n\n.ni-fat-add::before {\n    content: \"\\EA31\";\n}\n\n.ni-fat-delete::before {\n    content: \"\\EA32\";\n}\n\n.ni-fat-remove::before {\n    content: \"\\EA33\";\n}\n\n.ni-favourite-28::before {\n    content: \"\\EA34\";\n}\n\n.ni-folder-17::before {\n    content: \"\\EA35\";\n}\n\n.ni-glasses-2::before {\n    content: \"\\EA36\";\n}\n\n.ni-hat-3::before {\n    content: \"\\EA37\";\n}\n\n.ni-headphones::before {\n    content: \"\\EA38\";\n}\n\n.ni-html5::before {\n    content: \"\\EA39\";\n}\n\n.ni-istanbul::before {\n    content: \"\\EA3A\";\n}\n\n.ni-key-25::before {\n    content: \"\\EA3B\";\n}\n\n.ni-laptop::before {\n    content: \"\\EA3C\";\n}\n\n.ni-like-2::before {\n    content: \"\\EA3D\";\n}\n\n.ni-lock-circle-open::before {\n    content: \"\\EA3E\";\n}\n\n.ni-map-big::before {\n    content: \"\\EA3F\";\n}\n\n.ni-mobile-button::before {\n    content: \"\\EA40\";\n}\n\n.ni-money-coins::before {\n    content: \"\\EA41\";\n}\n\n.ni-note-03::before {\n    content: \"\\EA42\";\n}\n\n.ni-notification-70::before {\n    content: \"\\EA43\";\n}\n\n.ni-palette::before {\n    content: \"\\EA44\";\n}\n\n.ni-paper-diploma::before {\n    content: \"\\EA45\";\n}\n\n.ni-pin-3::before {\n    content: \"\\EA46\";\n}\n\n.ni-planet::before {\n    content: \"\\EA47\";\n}\n\n.ni-ruler-pencil::before {\n    content: \"\\EA48\";\n}\n\n.ni-satisfied::before {\n    content: \"\\EA49\";\n}\n\n.ni-scissors::before {\n    content: \"\\EA4A\";\n}\n\n.ni-send::before {\n    content: \"\\EA4B\";\n}\n\n.ni-settings-gear-65::before {\n    content: \"\\EA4C\";\n}\n\n.ni-settings::before {\n    content: \"\\EA4D\";\n}\n\n.ni-single-02::before {\n    content: \"\\EA4E\";\n}\n\n.ni-single-copy-04::before {\n    content: \"\\EA4F\";\n}\n\n.ni-sound-wave::before {\n    content: \"\\EA50\";\n}\n\n.ni-spaceship::before {\n    content: \"\\EA51\";\n}\n\n.ni-square-pin::before {\n    content: \"\\EA52\";\n}\n\n.ni-support-16::before {\n    content: \"\\EA53\";\n}\n\n.ni-tablet-button::before {\n    content: \"\\EA54\";\n}\n\n.ni-tag::before {\n    content: \"\\EA55\";\n}\n\n.ni-tie-bow::before {\n    content: \"\\EA56\";\n}\n\n.ni-time-alarm::before {\n    content: \"\\EA57\";\n}\n\n.ni-trophy::before {\n    content: \"\\EA58\";\n}\n\n.ni-tv-2::before {\n    content: \"\\EA59\";\n}\n\n.ni-umbrella-13::before {\n    content: \"\\EA5A\";\n}\n\n.ni-user-run::before {\n    content: \"\\EA5B\";\n}\n\n.ni-vector::before {\n    content: \"\\EA5C\";\n}\n\n.ni-watch-time::before {\n    content: \"\\EA5D\";\n}\n\n.ni-world::before {\n    content: \"\\EA5E\";\n}\n\n.ni-zoom-split-in::before {\n    content: \"\\EA5F\";\n}\n\n.ni-collection::before {\n    content: \"\\EA60\";\n}\n\n.ni-image::before {\n    content: \"\\EA61\";\n}\n\n.ni-shop::before {\n    content: \"\\EA62\";\n}\n\n.ni-ungroup::before {\n    content: \"\\EA63\";\n}\n\n.ni-world-2::before {\n    content: \"\\EA64\";\n}\n\n.ni-ui-04::before {\n    content: \"\\EA65\";\n}\n\n\n/* all icon font classes list here */\n", ""]);
+exports.push([module.i, "/*--------------------------------\r\n\r\nhermes-dashboard-icons Web Font - built using nucleoapp.com\r\nLicense - nucleoapp.com/license/\r\n\r\n-------------------------------- */\r\n@font-face {\r\n  font-family: 'NucleoIcons';\r\n  src: url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.eot */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.eot")) + ");\r\n  src: url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.eot */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.eot")) + ") format('embedded-opentype'), url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.woff2 */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.woff2")) + ") format('woff2'), url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.woff */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.woff")) + ") format('woff'), url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.ttf */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.ttf")) + ") format('truetype'), url(" + escape(__webpack_require__(/*! ../fonts/nucleo-icons.svg */ "./resources/template/assets/vendor/nucleo/fonts/nucleo-icons.svg")) + ") format('svg');\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n/*------------------------\r\n    base class definition\r\n-------------------------*/\r\n.ni {\r\n  display: inline-block;\r\n  font: normal normal normal 14px/1 NucleoIcons;\r\n  font-size: inherit;\r\n  text-rendering: auto;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n/*------------------------\r\n  change icon size\r\n-------------------------*/\r\n.ni-lg {\r\n  font-size: 1.33333333em;\r\n  line-height: 0.75em;\r\n  vertical-align: -15%;\r\n}\r\n.ni-2x {\r\n  font-size: 2em;\r\n}\r\n.ni-3x {\r\n  font-size: 3em;\r\n}\r\n.ni-4x {\r\n  font-size: 4em;\r\n}\r\n.ni-5x {\r\n  font-size: 5em;\r\n}\r\n\r\n/*----------------------------------\r\n  add a square/circle background\r\n-----------------------------------*/\r\n.ni.square,\r\n.ni.circle {\r\n  padding: 0.33333333em;\r\n  vertical-align: -16%;\r\n  background-color: #eee;\r\n}\r\n.ni.circle {\r\n  border-radius: 50%;\r\n}\r\n/*------------------------\r\n  list icons\r\n-------------------------*/\r\n.ni-ul {\r\n  padding-left: 0;\r\n  margin-left: 2.14285714em;\r\n  list-style-type: none;\r\n}\r\n.ni-ul > li {\r\n  position: relative;\r\n}\r\n.ni-ul > li > .ni {\r\n  position: absolute;\r\n  left: -1.57142857em;\r\n  top: 0.14285714em;\r\n  text-align: center;\r\n}\r\n.ni-ul > li > .ni.lg {\r\n  top: 0;\r\n  left: -1.35714286em;\r\n}\r\n.ni-ul > li > .ni.circle,\r\n.ni-ul > li > .ni.square {\r\n  top: -0.19047619em;\r\n  left: -1.9047619em;\r\n}\r\n/*------------------------\r\n  spinning icons\r\n-------------------------*/\r\n.ni.spin {\r\n  -webkit-animation: nc-spin 2s infinite linear;\r\n  animation: nc-spin 2s infinite linear;\r\n}\r\n@-webkit-keyframes nc-spin {\r\n  0% {\r\n    -webkit-transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    -webkit-transform: rotate(360deg);\r\n  }\r\n}\r\n@keyframes nc-spin {\r\n  0% {\r\n    transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n/*------------------------\r\n  rotated/flipped icons\r\n-------------------------*/\r\n.ni.rotate-90 {\r\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);\r\n  transform: rotate(90deg);\r\n}\r\n.ni.rotate-180 {\r\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);\r\n  transform: rotate(180deg);\r\n}\r\n.ni.rotate-270 {\r\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);\r\n  transform: rotate(270deg);\r\n}\r\n.ni.flip-y {\r\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);\r\n  transform: scale(-1, 1);\r\n}\r\n.ni.flip-x {\r\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);\r\n  transform: scale(1, -1);\r\n}\r\n/*------------------------\r\n    font icons\r\n-------------------------*/\r\n\r\n.ni-active-40::before {\r\n    content: \"\\EA02\";\r\n}\r\n\r\n.ni-air-baloon::before {\r\n    content: \"\\EA03\";\r\n}\r\n\r\n.ni-album-2::before {\r\n    content: \"\\EA04\";\r\n}\r\n\r\n.ni-align-center::before {\r\n    content: \"\\EA05\";\r\n}\r\n\r\n.ni-align-left-2::before {\r\n    content: \"\\EA06\";\r\n}\r\n\r\n.ni-ambulance::before {\r\n    content: \"\\EA07\";\r\n}\r\n\r\n.ni-app::before {\r\n    content: \"\\EA08\";\r\n}\r\n\r\n.ni-archive-2::before {\r\n    content: \"\\EA09\";\r\n}\r\n\r\n.ni-atom::before {\r\n    content: \"\\EA0A\";\r\n}\r\n\r\n.ni-badge::before {\r\n    content: \"\\EA0B\";\r\n}\r\n\r\n.ni-bag-17::before {\r\n    content: \"\\EA0C\";\r\n}\r\n\r\n.ni-basket::before {\r\n    content: \"\\EA0D\";\r\n}\r\n\r\n.ni-bell-55::before {\r\n    content: \"\\EA0E\";\r\n}\r\n\r\n.ni-bold-down::before {\r\n    content: \"\\EA0F\";\r\n}\r\n\r\n.ni-bold-left::before {\r\n    content: \"\\EA10\";\r\n}\r\n\r\n.ni-bold-right::before {\r\n    content: \"\\EA11\";\r\n}\r\n\r\n.ni-bold-up::before {\r\n    content: \"\\EA12\";\r\n}\r\n\r\n.ni-bold::before {\r\n    content: \"\\EA13\";\r\n}\r\n\r\n.ni-book-bookmark::before {\r\n    content: \"\\EA14\";\r\n}\r\n\r\n.ni-books::before {\r\n    content: \"\\EA15\";\r\n}\r\n\r\n.ni-box-2::before {\r\n    content: \"\\EA16\";\r\n}\r\n\r\n.ni-briefcase-24::before {\r\n    content: \"\\EA17\";\r\n}\r\n\r\n.ni-building::before {\r\n    content: \"\\EA18\";\r\n}\r\n\r\n.ni-bulb-61::before {\r\n    content: \"\\EA19\";\r\n}\r\n\r\n.ni-bullet-list-67::before {\r\n    content: \"\\EA1A\";\r\n}\r\n\r\n.ni-bus-front-12::before {\r\n    content: \"\\EA1B\";\r\n}\r\n\r\n.ni-button-pause::before {\r\n    content: \"\\EA1C\";\r\n}\r\n\r\n.ni-button-play::before {\r\n    content: \"\\EA1D\";\r\n}\r\n\r\n.ni-button-power::before {\r\n    content: \"\\EA1E\";\r\n}\r\n\r\n.ni-calendar-grid-58::before {\r\n    content: \"\\EA1F\";\r\n}\r\n\r\n.ni-camera-compact::before {\r\n    content: \"\\EA20\";\r\n}\r\n\r\n.ni-caps-small::before {\r\n    content: \"\\EA21\";\r\n}\r\n\r\n.ni-cart::before {\r\n    content: \"\\EA22\";\r\n}\r\n\r\n.ni-chart-bar-32::before {\r\n    content: \"\\EA23\";\r\n}\r\n\r\n.ni-chart-pie-35::before {\r\n    content: \"\\EA24\";\r\n}\r\n\r\n.ni-chat-round::before {\r\n    content: \"\\EA25\";\r\n}\r\n\r\n.ni-check-bold::before {\r\n    content: \"\\EA26\";\r\n}\r\n\r\n.ni-circle-08::before {\r\n    content: \"\\EA27\";\r\n}\r\n\r\n.ni-cloud-download-95::before {\r\n    content: \"\\EA28\";\r\n}\r\n\r\n.ni-cloud-upload-96::before {\r\n    content: \"\\EA29\";\r\n}\r\n\r\n.ni-compass-04::before {\r\n    content: \"\\EA2A\";\r\n}\r\n\r\n.ni-controller::before {\r\n    content: \"\\EA2B\";\r\n}\r\n\r\n.ni-credit-card::before {\r\n    content: \"\\EA2C\";\r\n}\r\n\r\n.ni-curved-next::before {\r\n    content: \"\\EA2D\";\r\n}\r\n\r\n.ni-delivery-fast::before {\r\n    content: \"\\EA2E\";\r\n}\r\n\r\n.ni-diamond::before {\r\n    content: \"\\EA2F\";\r\n}\r\n\r\n.ni-email-83::before {\r\n    content: \"\\EA30\";\r\n}\r\n\r\n.ni-fat-add::before {\r\n    content: \"\\EA31\";\r\n}\r\n\r\n.ni-fat-delete::before {\r\n    content: \"\\EA32\";\r\n}\r\n\r\n.ni-fat-remove::before {\r\n    content: \"\\EA33\";\r\n}\r\n\r\n.ni-favourite-28::before {\r\n    content: \"\\EA34\";\r\n}\r\n\r\n.ni-folder-17::before {\r\n    content: \"\\EA35\";\r\n}\r\n\r\n.ni-glasses-2::before {\r\n    content: \"\\EA36\";\r\n}\r\n\r\n.ni-hat-3::before {\r\n    content: \"\\EA37\";\r\n}\r\n\r\n.ni-headphones::before {\r\n    content: \"\\EA38\";\r\n}\r\n\r\n.ni-html5::before {\r\n    content: \"\\EA39\";\r\n}\r\n\r\n.ni-istanbul::before {\r\n    content: \"\\EA3A\";\r\n}\r\n\r\n.ni-key-25::before {\r\n    content: \"\\EA3B\";\r\n}\r\n\r\n.ni-laptop::before {\r\n    content: \"\\EA3C\";\r\n}\r\n\r\n.ni-like-2::before {\r\n    content: \"\\EA3D\";\r\n}\r\n\r\n.ni-lock-circle-open::before {\r\n    content: \"\\EA3E\";\r\n}\r\n\r\n.ni-map-big::before {\r\n    content: \"\\EA3F\";\r\n}\r\n\r\n.ni-mobile-button::before {\r\n    content: \"\\EA40\";\r\n}\r\n\r\n.ni-money-coins::before {\r\n    content: \"\\EA41\";\r\n}\r\n\r\n.ni-note-03::before {\r\n    content: \"\\EA42\";\r\n}\r\n\r\n.ni-notification-70::before {\r\n    content: \"\\EA43\";\r\n}\r\n\r\n.ni-palette::before {\r\n    content: \"\\EA44\";\r\n}\r\n\r\n.ni-paper-diploma::before {\r\n    content: \"\\EA45\";\r\n}\r\n\r\n.ni-pin-3::before {\r\n    content: \"\\EA46\";\r\n}\r\n\r\n.ni-planet::before {\r\n    content: \"\\EA47\";\r\n}\r\n\r\n.ni-ruler-pencil::before {\r\n    content: \"\\EA48\";\r\n}\r\n\r\n.ni-satisfied::before {\r\n    content: \"\\EA49\";\r\n}\r\n\r\n.ni-scissors::before {\r\n    content: \"\\EA4A\";\r\n}\r\n\r\n.ni-send::before {\r\n    content: \"\\EA4B\";\r\n}\r\n\r\n.ni-settings-gear-65::before {\r\n    content: \"\\EA4C\";\r\n}\r\n\r\n.ni-settings::before {\r\n    content: \"\\EA4D\";\r\n}\r\n\r\n.ni-single-02::before {\r\n    content: \"\\EA4E\";\r\n}\r\n\r\n.ni-single-copy-04::before {\r\n    content: \"\\EA4F\";\r\n}\r\n\r\n.ni-sound-wave::before {\r\n    content: \"\\EA50\";\r\n}\r\n\r\n.ni-spaceship::before {\r\n    content: \"\\EA51\";\r\n}\r\n\r\n.ni-square-pin::before {\r\n    content: \"\\EA52\";\r\n}\r\n\r\n.ni-support-16::before {\r\n    content: \"\\EA53\";\r\n}\r\n\r\n.ni-tablet-button::before {\r\n    content: \"\\EA54\";\r\n}\r\n\r\n.ni-tag::before {\r\n    content: \"\\EA55\";\r\n}\r\n\r\n.ni-tie-bow::before {\r\n    content: \"\\EA56\";\r\n}\r\n\r\n.ni-time-alarm::before {\r\n    content: \"\\EA57\";\r\n}\r\n\r\n.ni-trophy::before {\r\n    content: \"\\EA58\";\r\n}\r\n\r\n.ni-tv-2::before {\r\n    content: \"\\EA59\";\r\n}\r\n\r\n.ni-umbrella-13::before {\r\n    content: \"\\EA5A\";\r\n}\r\n\r\n.ni-user-run::before {\r\n    content: \"\\EA5B\";\r\n}\r\n\r\n.ni-vector::before {\r\n    content: \"\\EA5C\";\r\n}\r\n\r\n.ni-watch-time::before {\r\n    content: \"\\EA5D\";\r\n}\r\n\r\n.ni-world::before {\r\n    content: \"\\EA5E\";\r\n}\r\n\r\n.ni-zoom-split-in::before {\r\n    content: \"\\EA5F\";\r\n}\r\n\r\n.ni-collection::before {\r\n    content: \"\\EA60\";\r\n}\r\n\r\n.ni-image::before {\r\n    content: \"\\EA61\";\r\n}\r\n\r\n.ni-shop::before {\r\n    content: \"\\EA62\";\r\n}\r\n\r\n.ni-ungroup::before {\r\n    content: \"\\EA63\";\r\n}\r\n\r\n.ni-world-2::before {\r\n    content: \"\\EA64\";\r\n}\r\n\r\n.ni-ui-04::before {\r\n    content: \"\\EA65\";\r\n}\r\n\r\n\r\n/* all icon font classes list here */\r\n", ""]);
 
 // exports
 
@@ -44985,7 +44986,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.dropdown {\n  list-style-type: none;\n}\n.dropdown .dropdown-toggle {\n  cursor: pointer;\n}\n", ""]);
+exports.push([module.i, "\n.dropdown {\r\n  list-style-type: none;\n}\n.dropdown .dropdown-toggle {\r\n  cursor: pointer;\n}\r\n", ""]);
 
 // exports
 
@@ -45004,7 +45005,26 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.modal.show {\n  background-color: rgba(0, 0, 0, 0.3);\n}\n", ""]);
+exports.push([module.i, "\n.modal.show {\r\n  background-color: rgba(0, 0, 0, 0.3);\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/template/layout/DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.fondo[data-v-3340296c] {\r\n  background-color:#8F141B ;\n}\n.fuente_nombre[data-v-3340296c]{\r\n   color: blue,\n}\r\n", ""]);
 
 // exports
 
@@ -51691,6 +51711,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/template/layout/DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/lib/addStyles.js":
 /*!****************************************************!*\
   !*** ./node_modules/style-loader/lib/addStyles.js ***!
@@ -54404,10 +54454,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a& ***!
-  \***************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -54421,7 +54471,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "main-content bg-default" },
+    { staticClass: "bg-default" },
     [
       _c(
         "base-nav",
@@ -54683,13 +54733,9 @@ var staticRenderFns = [
       _c("div", { staticClass: "header-body text-center mb-7" }, [
         _c("div", { staticClass: "row justify-content-center" }, [
           _c("div", { staticClass: "col-lg-5 col-md-6" }, [
-            _c("h1", { staticClass: "text-white" }, [_vm._v("Welcome!")]),
+            _c("h1", { staticClass: "text-white" }, [_vm._v("Bienvenido")]),
             _vm._v(" "),
-            _c("p", { staticClass: "text-lead text-white" }, [
-              _vm._v(
-                "Use these awesome forms to login or create new account in\n                            your project for free."
-              )
-            ])
+            _c("p", { staticClass: "text-lead text-white" }, [_vm._v(".")])
           ])
         ])
       ])
@@ -54852,7 +54898,7 @@ var staticRenderFns = [
                   target: "_blank"
                 }
               },
-              [_vm._v("Creative Tim")]
+              [_vm._v("ssssssssssssTim")]
             )
           ]),
           _vm._v(" "),
@@ -54946,77 +54992,7 @@ var render = function() {
                   link: {
                     name: "Inicio",
                     icon: "ni ni-tv-2 text-primary",
-                    path: "/dashboard"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("sidebar-item", {
-                attrs: {
-                  link: {
-                    name: "Icons",
-                    icon: "ni ni-planet text-blue",
-                    path: "/icons"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("sidebar-item", {
-                attrs: {
-                  link: {
-                    name: "Maps",
-                    icon: "ni ni-pin-3 text-orange",
-                    path: "/maps"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("sidebar-item", {
-                attrs: {
-                  link: {
-                    name: "User Profile",
-                    icon: "ni ni-single-02 text-yellow",
-                    path: "/profile"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("sidebar-item", {
-                attrs: {
-                  link: {
-                    name: "Ejemplo",
-                    icon: "ni ni-single-02 text-yellow",
-                    path: "/ejemplo"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("sidebar-item", {
-                attrs: {
-                  link: {
-                    name: "Tables",
-                    icon: "ni ni-bullet-list-67 text-red",
-                    path: "/tables"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("sidebar-item", {
-                attrs: {
-                  link: {
-                    name: "Login",
-                    icon: "ni ni-key-25 text-info",
-                    path: "/login"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("sidebar-item", {
-                attrs: {
-                  link: {
-                    name: "Register",
-                    icon: "ni ni-circle-08 text-pink",
-                    path: "/register"
+                    path: "/inicio"
                   }
                 }
               })
@@ -55064,10 +55040,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c&":
-/*!********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c& ***!
-  \********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -55082,34 +55058,14 @@ var render = function() {
   return _c(
     "base-nav",
     {
-      staticClass: "navbar-top navbar-dark",
+      staticClass: "fondo navbar-top navbar-dark",
       attrs: { id: "navbar-main", "show-toggle-button": false, expand: "" }
     },
     [
-      _c(
-        "form",
-        {
-          staticClass:
-            "navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto"
-        },
-        [
-          _c(
-            "div",
-            { staticClass: "form-group mb-0" },
-            [
-              _c("base-input", {
-                staticClass: "input-group-alternative",
-                attrs: {
-                  placeholder: "Search",
-                  alternative: "",
-                  "addon-right-icon": "fas fa-search"
-                }
-              })
-            ],
-            1
-          )
-        ]
-      ),
+      _c("form", {
+        staticClass:
+          "navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto"
+      }),
       _vm._v(" "),
       _c(
         "ul",
@@ -55138,7 +55094,7 @@ var render = function() {
                           _c("img", {
                             attrs: {
                               alt: "Image placeholder",
-                              src: "img/theme/team-4-800x800.jpg"
+                              src: __webpack_require__(/*! ..//assets/img/foto.png */ "./resources/template/assets/img/foto.png")
                             }
                           })
                         ]
@@ -55150,8 +55106,11 @@ var render = function() {
                         [
                           _c(
                             "span",
-                            { staticClass: "mb-0 text-sm  font-weight-bold" },
-                            [_vm._v("Jessica Jones")]
+                            {
+                              staticClass:
+                                "mb-0 text-sm  font-weight-bold fuente_nombre"
+                            },
+                            [_vm._v("Jorge Cutiva")]
                           )
                         ]
                       )
@@ -55161,7 +55120,7 @@ var render = function() {
                   [
                     _c("div", { staticClass: " dropdown-header noti-title" }, [
                       _c("h6", { staticClass: "text-overflow m-0" }, [
-                        _vm._v("Welcome!")
+                        _vm._v("Bienvenido")
                       ])
                     ]),
                     _vm._v(" "),
@@ -55172,22 +55131,9 @@ var render = function() {
                         attrs: { to: "/profile" }
                       },
                       [
-                        _c("i", { staticClass: "ni ni-single-02" }),
-                        _vm._v(" "),
-                        _c("span", [_vm._v("My profile")])
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "router-link",
-                      {
-                        staticClass: "dropdown-item",
-                        attrs: { to: "/profile" }
-                      },
-                      [
                         _c("i", { staticClass: "ni ni-settings-gear-65" }),
                         _vm._v(" "),
-                        _c("span", [_vm._v("Settings")])
+                        _c("span", [_vm._v("Configuración")])
                       ]
                     ),
                     _vm._v(" "),
@@ -55198,22 +55144,9 @@ var render = function() {
                         attrs: { to: "/profile" }
                       },
                       [
-                        _c("i", { staticClass: "ni ni-calendar-grid-58" }),
+                        _c("i", { staticClass: "ni ni-image" }),
                         _vm._v(" "),
-                        _c("span", [_vm._v("Activity")])
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "router-link",
-                      {
-                        staticClass: "dropdown-item",
-                        attrs: { to: "/profile" }
-                      },
-                      [
-                        _c("i", { staticClass: "ni ni-support-16" }),
-                        _vm._v(" "),
-                        _c("span", [_vm._v("Support")])
+                        _c("span", [_vm._v("Cambiar imagen")])
                       ]
                     ),
                     _vm._v(" "),
@@ -55228,7 +55161,7 @@ var render = function() {
                       [
                         _c("i", { staticClass: "ni ni-user-run" }),
                         _vm._v(" "),
-                        _c("span", [_vm._v("Logout")])
+                        _c("span", [_vm._v("Cerrar Sesión")])
                       ]
                     )
                   ]
@@ -70994,6 +70927,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/template/assets/img/foto.png":
+/*!************************************************!*\
+  !*** ./resources/template/assets/img/foto.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/foto.png?930d44ea014b43718c6745f9fa9aa9e3";
+
+/***/ }),
+
 /***/ "./resources/template/assets/scss/argon.scss":
 /*!***************************************************!*\
   !*** ./resources/template/assets/scss/argon.scss ***!
@@ -71053,7 +70997,7 @@ module.exports = "/fonts/nucleo-icons.eot?c1733565b32b585676302d4233c39da8";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/fonts/nucleo-icons.svg?0b8a30b10cbe7708d5f3a4b007c1d665";
+module.exports = "/fonts/nucleo-icons.svg?46abbc4a676739dbd61f8a305cb63fd8";
 
 /***/ }),
 
@@ -73120,7 +73064,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AuthLayout_vue_vue_type_template_id_7f22a17a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AuthLayout.vue?vue&type=template&id=7f22a17a& */ "./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a&");
+/* harmony import */ var _AuthLayout_vue_vue_type_template_id_7f22a17a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AuthLayout.vue?vue&type=template&id=7f22a17a&scoped=true& */ "./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a&scoped=true&");
 /* harmony import */ var _AuthLayout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AuthLayout.vue?vue&type=script&lang=js& */ "./resources/template/layout/AuthLayout.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -73132,11 +73076,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _AuthLayout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _AuthLayout_vue_vue_type_template_id_7f22a17a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _AuthLayout_vue_vue_type_template_id_7f22a17a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _AuthLayout_vue_vue_type_template_id_7f22a17a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AuthLayout_vue_vue_type_template_id_7f22a17a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  null,
+  "7f22a17a",
   null
   
 )
@@ -73162,19 +73106,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a&":
-/*!*********************************************************************************!*\
-  !*** ./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a& ***!
-  \*********************************************************************************/
+/***/ "./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a&scoped=true&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a&scoped=true& ***!
+  \*********************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AuthLayout_vue_vue_type_template_id_7f22a17a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AuthLayout.vue?vue&type=template&id=7f22a17a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AuthLayout_vue_vue_type_template_id_7f22a17a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AuthLayout_vue_vue_type_template_id_7f22a17a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AuthLayout.vue?vue&type=template&id=7f22a17a&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/AuthLayout.vue?vue&type=template&id=7f22a17a&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AuthLayout_vue_vue_type_template_id_7f22a17a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AuthLayout_vue_vue_type_template_id_7f22a17a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AuthLayout_vue_vue_type_template_id_7f22a17a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -73327,9 +73271,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DashboardNavbar_vue_vue_type_template_id_3340296c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DashboardNavbar.vue?vue&type=template&id=3340296c& */ "./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c&");
+/* harmony import */ var _DashboardNavbar_vue_vue_type_template_id_3340296c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DashboardNavbar.vue?vue&type=template&id=3340296c&scoped=true& */ "./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c&scoped=true&");
 /* harmony import */ var _DashboardNavbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DashboardNavbar.vue?vue&type=script&lang=js& */ "./resources/template/layout/DashboardNavbar.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _DashboardNavbar_vue_vue_type_style_index_0_id_3340296c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css& */ "./resources/template/layout/DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -73337,13 +73283,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _DashboardNavbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _DashboardNavbar_vue_vue_type_template_id_3340296c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _DashboardNavbar_vue_vue_type_template_id_3340296c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _DashboardNavbar_vue_vue_type_template_id_3340296c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DashboardNavbar_vue_vue_type_template_id_3340296c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  null,
+  "3340296c",
   null
   
 )
@@ -73369,19 +73315,35 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c&":
-/*!**************************************************************************************!*\
-  !*** ./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c& ***!
-  \**************************************************************************************/
+/***/ "./resources/template/layout/DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/template/layout/DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css& ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DashboardNavbar_vue_vue_type_style_index_0_id_3340296c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/DashboardNavbar.vue?vue&type=style&index=0&id=3340296c&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DashboardNavbar_vue_vue_type_style_index_0_id_3340296c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DashboardNavbar_vue_vue_type_style_index_0_id_3340296c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DashboardNavbar_vue_vue_type_style_index_0_id_3340296c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DashboardNavbar_vue_vue_type_style_index_0_id_3340296c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c&scoped=true&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c&scoped=true& ***!
+  \**************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DashboardNavbar_vue_vue_type_template_id_3340296c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./DashboardNavbar.vue?vue&type=template&id=3340296c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DashboardNavbar_vue_vue_type_template_id_3340296c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DashboardNavbar_vue_vue_type_template_id_3340296c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./DashboardNavbar.vue?vue&type=template&id=3340296c&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/template/layout/DashboardNavbar.vue?vue&type=template&id=3340296c&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DashboardNavbar_vue_vue_type_template_id_3340296c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DashboardNavbar_vue_vue_type_template_id_3340296c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DashboardNavbar_vue_vue_type_template_id_3340296c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -73652,6 +73614,12 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
       }
     }]
   }, {
+    path: '/inicio',
+    name: 'Inicio',
+    component: function component() {
+      return Promise.all(/*! import() | demo */[__webpack_require__.e("vendors~demo"), __webpack_require__.e("demo")]).then(__webpack_require__.bind(null, /*! ./components/Inicio.vue */ "./resources/template/components/Inicio.vue"));
+    }
+  }, {
     path: '/',
     redirect: 'login',
     component: _layout_AuthLayout__WEBPACK_IMPORTED_MODULE_3__["default"],
@@ -73680,8 +73648,8 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Tony Stark\PhpstormProjects\usco3\resources\template\main.js */"./resources/template/main.js");
-module.exports = __webpack_require__(/*! C:\Users\Tony Stark\PhpstormProjects\usco3\resources\template\assets\scss\argon.scss */"./resources/template/assets/scss/argon.scss");
+__webpack_require__(/*! C:\Users\Delipa\PhpstormProjects\ProyectoPasantias\InventarioDocumental\resources\template\main.js */"./resources/template/main.js");
+module.exports = __webpack_require__(/*! C:\Users\Delipa\PhpstormProjects\ProyectoPasantias\InventarioDocumental\resources\template\assets\scss\argon.scss */"./resources/template/assets/scss/argon.scss");
 
 
 /***/ })
