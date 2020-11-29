@@ -23,7 +23,6 @@ import './registerServiceWorker'
 import ArgonDashboard from './plugins/argon-dashboard'
 
 
-
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 Vue.use(ArgonDashboard)

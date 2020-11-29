@@ -6,12 +6,12 @@
             {[`bg-${type}`]: type}
          ]">
         <div :class="containerClasses">
-            <slot name="brand">
+            <!--<slot name="brand">
                 <router-link :to="$route.path"
-                             class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block">
+                             class="text-uppercase text-titulo">
                     {{$route.name}}
                 </router-link>
-            </slot>
+            </slot>-->
             <navbar-toggle-button v-if="showToggleButton"
                                   :toggled="toggled"
                                   :target="contentId"
@@ -85,5 +85,12 @@
     }
   };
 </script>
-<style>
-</style>
+<style scoped>
+.text-titulo {
+  font-size:xx-large;
+  font-weight: bolder;
+  text-align: center;
+  color:#DFD4A6;
+}
+</style>>
+

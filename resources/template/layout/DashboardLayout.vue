@@ -40,14 +40,17 @@
 </template>
 <script>
   import DashboardNavbar from './DashboardNavbar.vue';
+  import TituloLayout from './TituloLayout.vue';
   import ContentFooter from './ContentFooter.vue';
   import { FadeTransition } from 'vue2-transitions';
 
   export default {
     components: {
       DashboardNavbar,
+      TituloLayout,
       ContentFooter,
       FadeTransition
+      
     },
     data() {
       return {

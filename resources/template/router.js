@@ -40,6 +40,11 @@ export default new Router({
           name: 'tables',
           component: () => import(/* webpackChunkName: "demo" */ './views/Tables.vue')
         },
+        {
+          path: '/inicio',
+          name: 'Inicio',
+          component: () => import(/* webpackChunkName: "demo" */ './components/Inicio.vue')
+        },
           {
               path: '/ejemplo',
               name: 'Ejemplo',
@@ -49,9 +54,9 @@ export default new Router({
       ]
     },
     {
-      path: '/inicio',
-      name: 'Inicio',
-      component: () => import(/* webpackChunkName: "demo" */ './components/Inicio.vue')
+      path: '/loginV2',
+      name: 'LoginV2',
+      component: () => import(/* webpackChunkName: "demo" */ './components/LoginV2.vue')
   },
     {
       path: '/',

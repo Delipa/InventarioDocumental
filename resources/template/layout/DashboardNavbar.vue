@@ -1,9 +1,12 @@
 <template>
-    <base-nav class="fondo navbar-top navbar-dark"
+    <base-nav class="navbar-main navbar-dark"
               id="navbar-main"
               :show-toggle-button="false"
               expand>
-        <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
+              <div class="titulo">
+               <p class="text-titulo">INVENTARIO DOCUMENTAL</p>
+               </div>
+        <form class="mr-3 d-none  ml-lg-auto d-md-flex">
             <!--<div class="form-group mb-0">
                 <base-input placeholder="Search"
                             class="input-group-alternative"
@@ -20,7 +23,7 @@
                   <img alt="Image placeholder" src="..//assets/img/foto.png">
                 </span>
                         <div class="media-body ml-2 d-none d-lg-block">
-                            <span class="mb-0 text-sm  font-weight-bold fuente_nombre">Jorge Cutiva</span>
+                            <span class="text-nombre">Jorge Cutiva</span>
                         </div>
                     </div>
 
@@ -54,7 +57,6 @@
             </li>
         </ul>
     </base-nav>
-
 </template>
 <script>
   export default {
@@ -79,10 +81,24 @@
   };
 </script>
 <style scoped>
-.fondo {
-  background-color:#8F141B ;
+.navbar-main{
+  background-color: #8F141B;
 }
- .fuente_nombre{
-   color: blue,
- }
+.text-nombre{
+  color:#DFD4A6;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+}
+.text-titulo {
+  font-size:xx-large;
+  font-weight: bolder;
+  text-align: center;
+  color:#DFD4A6;
+}
+.titulo{
+  left: 0;
+    top: 0;
+}
 </style>
