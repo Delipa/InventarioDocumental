@@ -16,15 +16,17 @@
 
 */
 import Vue from 'vue'
-import BootstrapVue from 'bootstrap-vue'
+/*Boostrap e iconos*/
+import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
+/*import BootstrapVue from 'bootstrap-vue'*/
 import App from './App.vue'
 import router from './router'
 import './registerServiceWorker'
 import ArgonDashboard from './plugins/argon-dashboard'
 
-
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
+Vue.use(BootstrapVueIcons)
 Vue.use(ArgonDashboard)
 new Vue({
   router,

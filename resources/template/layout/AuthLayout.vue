@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-default">
+    <div class="main-content bg-default">
         <!-- Navbar -->
         <base-nav class="navbar-top navbar-horizontal navbar-dark"
                   containerClasses="px-4 container"
@@ -9,7 +9,7 @@
             </router-link>
 
             <template v-slot="{closeMenu}">
-                <!-- Collapse header --> 
+                <!-- Collapse header -->
                 <div class="navbar-collapse-header d-md-none">
                     <div class="row">
                         <div class="col-6 collapse-brand">
@@ -28,7 +28,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Navbar items-->  
+                <!-- Navbar items -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <router-link class="nav-link nav-link-icon" to="/">
@@ -57,14 +57,15 @@
                 </ul>
             </template>
         </base-nav>
-        <!-- Header--> 
+        <!-- Header -->
         <div class="header bg-gradient-success py-7 py-lg-8">
             <div class="container">
                 <div class="header-body text-center mb-7">
                     <div class="row justify-content-center">
                         <div class="col-lg-5 col-md-6">
-                            <h1 class="text-white">Bienvenido</h1>
-                            <p class="text-lead text-white">.</p>
+                            <h1 class="text-white">Welcome!</h1>
+                            <p class="text-lead text-white">Use these awesome forms to login or create new account in
+                                your project for free.</p>
                         </div>
                     </div>
                 </div>
@@ -77,7 +78,7 @@
             </div>
         </div>
         <!-- Page content -->
-        <div class="container">
+        <div class="container mt--8 pb-5">
             <slide-y-up-transition mode="out-in" origin="center top">
                 <router-view></router-view>
             </slide-y-up-transition>
@@ -130,6 +131,5 @@
     }
   }
 </script>
-<style scoped>
-</style>>
-
+<style>
+</style>

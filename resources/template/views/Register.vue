@@ -4,7 +4,7 @@
             <div class="card bg-secondary shadow border-0">
                 <div class="card-header bg-transparent pb-5">
                     <div class="text-muted text-center mt-2 mb-3">
-                        <small>Sign up with</small>
+                        <small>Sign up wsQSsQSqsQSqsQSqswith</small>
                     </div>
                     <div class="btn-wrapper text-center">
                         <a href="#" class="btn btn-neutral btn-icon">

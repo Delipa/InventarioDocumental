@@ -6,8 +6,9 @@
             <navbar-toggle-button @click.native="showSidebar">
                 <span class="navbar-toggler-icon"></span>
             </navbar-toggle-button>
-            <router-link class="navbar-brand" to="/">
-                <img :src="logo" class="navbar-brand-img" alt="...">
+            <!--Logo del NavBar-->
+            <router-link class="navbar-brand" to="/inicio">
+                <img src="../../assets/img/logo_usco.png" class="navbar-brand-img" alt="" title="Inicio">
             </router-link>
 
             <slot name="mobile-right">
@@ -27,34 +28,34 @@
                         <a slot="title" class="nav-link" href="#" role="button">
                             <div class="media align-items-center">
                               <span class="avatar avatar-sm rounded-circle">
-                                <img alt="Image placeholder" src="img/theme/team-1-800x800.jpg">
+                                <img alt="Image placeholder" src="../../assets/img/foto.png">
                               </span>
                             </div>
                         </a>
-
+                      <!-- Configuración barra del header en responsive --> 
                         <div class=" dropdown-header noti-title">
-                            <h6 class="text-overflow m-0">Welcome!</h6>
+                            <h6 class="text-overflow m-0">Bienvenido</h6>
                         </div>
                         <router-link to="/profile" class="dropdown-item">
-                            <i class="ni ni-single-02"></i>
-                            <span>My profile</span>
-                        </router-link>
-                        <router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-settings-gear-65"></i>
-                            <span>Settings</span>
+                            <span>Configuración</span>
                         </router-link>
                         <router-link to="/profile" class="dropdown-item">
+                            <i class="ni ni-single-02"></i>
+                            <span>Cambiar Imagen</span>
+                        </router-link>
+                        <!--<router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-calendar-grid-58"></i>
                             <span>Activity</span>
                         </router-link>
                         <router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-support-16"></i>
                             <span>Support</span>
-                        </router-link>
+                        </router-link>-->
                         <div class="dropdown-divider"></div>
                         <a href="#!" class="dropdown-item">
                             <i class="ni ni-user-run"></i>
-                            <span>Logout</span>
+                            <span>Cerrar Sesión</span>
                         </a>
                     </base-dropdown>
                 </ul>
@@ -80,11 +81,11 @@
                     </slot>
                 </ul>
                 <!--Divider-->
-                <hr class="my-3">
-                <!--Heading-->
-                <h6 class="navbar-heading text-muted">Documentation</h6>
+                <!--<hr class="my-3">-->
+                 <!-- Heading-->
+                <!--<h6 class="navbar-heading text-muted">Documentation</h6>-->
                 <!--Navigation-->
-                <ul class="navbar-nav mb-md-3">
+                 <!--<ul class="navbar-nav mb-md-3">
                     <li class="nav-item">
                         <a class="nav-link"
                            href="https://demos.creative-tim.com/vue-argon-dashboard/documentation">
@@ -103,7 +104,7 @@
                             <i class="ni ni-ui-04"></i> Components
                         </a>
                     </li>
-                </ul>
+                </ul>-->
             </div>
             </div>
     </nav>
@@ -148,3 +149,10 @@
     }
   };
 </script>
+<style scoped>
+/* Tamaño Logo*/
+/*.navbar-brand-img{
+  width: 100%; 
+  height: 100%;
+}*/
+</style>

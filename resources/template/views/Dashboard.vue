@@ -12,7 +12,7 @@
                     >
 
                         <template slot="footer">
-                            <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                            <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.4adadadwa8%</span>
                             <span class="text-nowrap">AAAAAAAAAAAAAAA</span>
                         </template>
                     </stats-card>
@@ -26,7 +26,7 @@
                     >
 
                         <template slot="footer">
-                            <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 12.18%</span>
+                            <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 12.1s8%</span>
                             <span class="text-nowrap">wwwwwwwwwwwwwww</span>
                         </template>
                     </stats-card>

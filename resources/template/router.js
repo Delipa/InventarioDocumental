@@ -40,17 +40,39 @@ export default new Router({
           name: 'tables',
           component: () => import(/* webpackChunkName: "demo" */ './views/Tables.vue')
         },
-        {
-          path: '/inicio',
-          name: 'Inicio',
-          component: () => import(/* webpackChunkName: "demo" */ './components/Inicio.vue')
-        },
           {
               path: '/ejemplo',
               name: 'Ejemplo',
               component: () => import(/* webpackChunkName: "demo" */ './components/Ejemplo.vue')
           },
-          
+
+          {
+            path: '/inicio',
+            name: 'inicio',
+            component: () => import(/* webpackChunkName: "demo" */ './components/Inicio.vue')
+        },
+
+        {
+          path: '/usuarios',
+          name: 'usuarios',
+          component: () => import(/* webpackChunkName: "demo" */ './components/Usuarios.vue')
+      },
+      {
+        path: '/inventario',
+        name: 'inventario',
+        component: () => import(/* webpackChunkName: "demo" */ './components/Inventario.vue')
+      },
+      {
+        path: '/rol',
+        name: 'rol',
+        component: () => import(/* webpackChunkName: "demo" */ './components/Rol.vue')
+      },
+
+      {
+        path: '/menuExpediente',
+        name: 'Menu Expediente',
+        component: () => import(/* webpackChunkName: "demo" */ './components/MenuExpediente.vue')
+      },          
       ]
     },
     {
